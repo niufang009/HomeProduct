@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+
+    <body>
+        <script>
+            var p = new User("mary");
+            alert(p.name); //弹出 mary
+            p.sing = function() {
+                alert("sing");
+            }
+            p.sing(); //弹出 sing....
+            function User(name) {
+                this.name = name;
+            }
+        </script>
+    </body>
+
+</html>
